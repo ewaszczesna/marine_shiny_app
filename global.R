@@ -1,0 +1,11 @@
+library(shiny)
+library(dplyr)
+library(data.table)
+library(shinyWidgets)
+library(shiny.semantic)
+library(geosphere)
+library(leaflet)
+library(shiny.info)
+library(feather)
+
+marine_data <- setDT(read_feather("ships.feather"))

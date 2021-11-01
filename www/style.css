@@ -1,0 +1,18 @@
+.header {
+  margin: 20px !important;
+}
+
+.ui.segment {
+  box-sizing: border-box;
+  margin: 30px;
+  height: 97%;
+}
+
+body {
+  margin: 0px !important;
+}
+
+#mymap {
+  height: 90% !important;
+  margin-top: 20px;
+}
